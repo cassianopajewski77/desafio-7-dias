@@ -1,0 +1,10 @@
+// Configuração do Cloudflare Worker: site estático servido direto da raiz do repositório.
+// O bloco "previews" é exigido pelo comando de pré-visualização (npx wrangler preview) dos PRs.
+{
+  "name": "desafio-7-dias",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./"
+  },
+  "previews": {}
+}
